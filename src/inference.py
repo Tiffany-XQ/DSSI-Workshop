@@ -1,4 +1,4 @@
-from joblib import load
+from joblib import dump, load
 import pandas as pd
 
 def get_prediction(**kwargs):
